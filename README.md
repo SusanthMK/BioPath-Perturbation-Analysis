@@ -4,7 +4,7 @@
 
 This project focuses on analyzing biological pathway perturbations using real gene expression data from the GEO database (GSE15852). The aim is to identify key differences between cancer and normal samples and understand how these differences affect biological pathways.
 
-This work combines machine learning and statistical analysis to extract meaningful biological insights from high-dimensional genomic data.
+This work combines machine learning and statistical analysis to extract meaningful biological insights from high-dimensional genomic data and serves as a foundation for pathway-level analysis using frameworks such as Reactome and MP-BioPath.
 
 ---
 
@@ -16,6 +16,7 @@ This work combines machine learning and statistical analysis to extract meaningf
 * Apply statistical methods for gene significance
 * Visualize patterns using advanced plots
 * Interpret biological relevance of findings
+* Establish a foundation for pathway-level perturbation analysis
 
 ---
 
@@ -54,6 +55,10 @@ This is a research-grade dataset widely used in bioinformatics studies.
 * Applied statistical t-test
 * Computed fold change for each gene
 * Ranked genes based on significance and expression difference
+
+### Pathway-Level Perspective
+
+Significant genes identified in this analysis can be mapped to biological pathways using databases such as Reactome. This provides a basis for integrating with tools like MP-BioPath to study pathway perturbations at a systems level.
 
 ---
 
@@ -127,7 +132,7 @@ notebooks/BioPath_Analysis.ipynb
 * Gene expression patterns clearly distinguish cancer from normal samples
 * Differential analysis identifies genes driving disease progression
 * High fold-change genes may serve as biomarkers
-* Combining machine learning and statistical methods improves interpretability
+* Combined machine learning and statistical analysis improves interpretability
 
 ---
 
@@ -142,6 +147,7 @@ notebooks/BioPath_Analysis.ipynb
 ## Future Work
 
 * Pathway enrichment analysis (KEGG / Reactome)
+* Integration with MP-BioPath for pathway perturbation modeling
 * Network-based pathway modeling
 * Integration with mutation and PTM datasets
 * Advanced deep learning approaches
