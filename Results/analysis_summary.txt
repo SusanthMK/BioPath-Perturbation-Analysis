@@ -1,0 +1,22 @@
+BIOPATH PERTURBATION ANALYSIS SUMMARY
+
+Total genes analyzed: 22283
+Significant genes: 1070
+
+Top 10 Genes:
+              Gene       p_value  fold_change
+12993  213614_x_at  2.232366e-12  4711.960000
+12253  212869_x_at  1.604114e-09  4057.388140
+6084   206559_x_at  3.860432e-11  4003.524186
+11669  212284_x_at  8.163461e-09  3872.975581
+82     200062_s_at  8.491035e-13  3777.088837
+160      200633_at  3.099964e-10  3746.917674
+11775  212391_x_at  3.630524e-08  3550.812791
+4418   204892_x_at  6.636403e-10  3442.477209
+244    200717_x_at  2.681457e-10  3423.504651
+12962  213583_x_at  5.232084e-10  3386.867442
+
+Biological Interpretation:
+- Clear separation between cancer and normal samples observed in PCA.
+- Significant genes indicate strong pathway perturbations.
+- High fold-change genes are potential biomarkers.
